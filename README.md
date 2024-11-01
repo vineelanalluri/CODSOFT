@@ -1,4 +1,4 @@
-# To-Do List Application in Python
+#Task 1  To-Do List Application in Python
 
 class ToDoList:
     def __init__(self):
@@ -37,7 +37,7 @@ class ToDoList:
         else:
             print("Invalid task number.")
 
-# Main function to interact with the To-Do List
+
 def main():
     todo_list = ToDoList()
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     main()
 
 
-# Simple Calculator with Basic Arithmetic Operations
+# Task 2 :Simple Calculator with Basic Arithmetic Operations
 
 def add(x, y):
     return x + y
@@ -135,7 +135,7 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
-# Password Generator
+# Task 3 : Password Generator
 
 import random
 import string
@@ -145,9 +145,6 @@ def generate_password(length):
     # Generate a random password using the specified length
     password = ''.join(random.choice(characters) for i in range(length))
     return password
-
-# Prompt the user for the desired password length
 length = int(input("Enter the desired password length: "))
-# Generate and display the password
 password = generate_password(length)
 print("Generated Password:", password)
